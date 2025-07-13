@@ -1,0 +1,66 @@
+ 1. Open Command Prompt
+Press Win + R, type cmd, and press Enter
+
+Or search for "Command Prompt" in the Start menu
+
+✅ 2. Create a Project Folder
+In CMD:
+
+bash
+Copy
+Edit
+mkdir resume_screener
+cd resume_screener
+✅ 3. Create a Python File
+Use this command to open Notepad:
+
+bash
+Copy
+Edit
+notepad resume_screener.py
+When Notepad opens:
+
+Paste the Python code I gave you
+
+Click File > Save
+
+Then go back to CMD.
+
+✅ 4. Install Required Python Libraries
+Run these commands one by one:
+
+bash
+Copy
+Edit
+pip install streamlit
+pip install pandas
+pip install PyPDF2
+pip install docx2txt
+pip install scikit-learn
+If you're using an older version of Python or facing issues, let me know—I’ll help fix them.
+
+✅ 5. Run the Project
+Finally, launch your app using:
+
+bash
+Copy
+Edit
+streamlit run resume_screener.py
+✅ This will automatically open the app in your web browser.
+
+📌 Common Errors & Fixes:
+Error	Solution
+pip not recognized	Install Python from python.org and check "Add to PATH" during install
+ModuleNotFoundError	Means one of the pip install steps is missing — just install the missing package
+App doesn't open	Check if Streamlit is installed correctly and try again
+
+Do you want me to give this as a PDF tutorial too?
+Or do you want help deploying this to a free website like Streamlit Cloud?
+
+
+
+
+
+
+
+You said:
